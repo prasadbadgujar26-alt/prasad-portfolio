@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+    </div>
+
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <div class="menu-toggle" id="mobile-menu" onclick=showSidebar()>
+                <a>
+                <i class="fas fa-bars" style="color: #304abc;"></i>
+                </a>
+            </div>
+
+             <div class="sidebar">
+                <div class="close" onclick=showHome()>
+                    <a>
+                    <i class="fa fa-window-close" aria-hidden="true" style="color: #304abc; " ></i>
+                    </a>
+                </div>
+            <div class="Side-menu" style="margin-left: 30px;">
+                <a href="#home">Home</a></br>
+                <a href="#about">About Me</a></br>
+                <a href="#skills">Skills</a></br>
+                <a href="#projects">Projects</a></br>
+                <a href="#contact">Contact</a></br>
+            </div>
+        </div>
+
+            <ul class="nav-menu">
+                 <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container" id="home" >
+        <header >
+            <div class="profile-img">
+                <!-- <i class="fas fa-user"></i> -->
+                <img src="./images/1762109758228.png" height="160px" alt="Profile Image" />
+            </div>
+            <h1>PRASAD BADGUJAR</h1>
+            <p class="tagline">Java Full Stack Developer</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/prasad-badgujar-430916238" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/prasadbadgujar26-alt" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:prasadbadgujar26@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </header>
+        
+        <div resume class="resume" style="text-align: center; margin-top: -16px; margin-bottom: 40px;">
+                <a href="https://drive.google.com/file/d/1LMsfhMIMGChitA8TK-syLRjh6hNl3bNI/view?usp=drivesdk">
+                    <button>See Resume</button>
+                </a>
+                
+
+        </div>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="about-text">
+                I am a passionate Full Stack Developer with expertise in building scalable and robust web applications. 
+                With a strong foundation in both frontend and backend technologies, I specialize in creating end-to-end solutions 
+                that deliver exceptional user experiences. My experience spans across various frameworks and technologies, 
+                allowing me to adapt quickly to new challenges and deliver high-quality code. I'm constantly learning and 
+                staying updated with the latest industry trends to provide innovative solutions.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #007396;">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="skill-name">Java</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #6DB33F;">
+                        <img src="./images/spring-boot-logo-icon-hd.webp" style="width: 65px; height: 65px; margin-bottom: -10px;">
+                    </div>
+                    <div class="skill-name">Spring Boot</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #6DB33F;">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="skill-name">Spring</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #E34F26;">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-name">HTML5</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #1572B6;">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-name">CSS3</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #F7DF1E;">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #61DAFB;">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="skill-name">React</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #4479A1;">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-name">MySQL</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #c20000;">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-name">Oracle</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #47A248;">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="skill-name">MongoDB</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #F05032;">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skill-name">Git</div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #002542;">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="skill-name">GitHub</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #002542;">
+                        <img src="./images/githubcopilot-20231006121659.png" style="width: 60px; height: 60px; margin-bottom: -10px;">
+                    </div>
+                    <div class="skill-name">GitHub Copilot</div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-icon" style="color: #002542;">
+                        <img src="./images/10644640.png" style="width: 65px; height: 65px; margin-bottom: -10px;">
+                    </div>
+                    <div class="skill-name">Genrative AI</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Freelance web Developer</h3>
+                <div class="company">At Upwork</div>
+
+                <div class="description">
+                    <p>As a Freelance Web Developer, I designed and developed a responsive dashboard for a social media agency to efficiently manage and track video editing projects. Using HTML, CSS, Bootstrap, Java, Spring Boot, and MySQL, I built a seamless interface that allowed users to create, update, and delete projects, assign editors, and upload video assets. The intuitive UI and robust backend improved workflow efficiency and provided a smooth user experience across devices.</p>
+                </div>
+            </div>
+        </section> 
+  
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project-item">
+                <h3>Student Management System</h3>
+                <div class="tech-stack">Java | Spring Boot | JPA | Hibernate | HTML | CSS | Thymeleaf</div>
+                <div class="description">
+                A web-based application designed to efficiently manage student records and academic data. The system allows administrators to perform complete CRUD operations such as adding, updating, deleting, and viewing student details. Developed using Java Spring Boot with the Spring MVC architecture, it ensures a modular and scalable structure. JPA and Hibernate are used for seamless database interaction with MySQL, while the front end is built with HTML, CSS, and Thymeleaf for a clean and user-friendly interface.
+                </div>
+                
+                <div class="github-link">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" class="github-logo">
+                    <span class="github-text" style="margin-top: 22px;">Github Repository</span>
+                </div>
+
+            </div>
+
+            <div class="project-item">
+                <h3>AutoSarthi - Vehicle Mechanic Booking Platform</h3>
+                <div class="tech-stack"> Java | Spring Boot(Hibernate, JPA, Maven) | HTML | CSS | JavaScript | MySQL</div>
+                <div class="description">
+                    As a Full Stack Developer, I designed and developed a web application that allows users to easily book vehicle repair and maintenance services from local mechanics. The platform was built using Java, Spring Boot, HTML, CSS, Thymeleaf, and MySQL, featuring RESTful APIs for booking and user management. I created a responsive and user-friendly interface with Thymeleaf templates and integrated a MySQL database to efficiently manage customer and service data, ensuring smooth and reliable operations across the system.
+                </div>
+            </div>
+
+        </section>
+
+    <div id="contact">
+       <p class="lastLine">free to reach out for job opportunities, 
+        internship opportunities or tech discussions!</p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:prasadbadgujar26@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+    
+    <div class="phone-contact">
+        <a href="tel:+918177941017">
+             <button class="phone">+91 8177941017</button>
+        </a>
+    </div>
+</div>
+
+     <footer>
+        <p>Thank You For Vsiting My Portfolio</p>
+    </footer>
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex'
+           } 
+    function showHome(){
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none'
+           } 
+
+</script>
+</body>
+</html>
