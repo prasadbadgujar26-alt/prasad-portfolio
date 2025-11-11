@@ -1,5 +1,5 @@
  html {
-  scroll-padding-top: 80px; /* adjust based on your navbar height */
+  scroll-padding-top: 80px;
 }
 
  * {
@@ -755,3 +755,4 @@
             animation: fadeInUp 1s ease-out 1s backwards;
 
         }
+
