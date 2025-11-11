@@ -244,7 +244,7 @@
   }
   
   .menu-toggle {
-      display: block;
+      display: none;
       font-size: 1.8em;
       color: #223896;
       cursor: pointer;
@@ -755,5 +755,6 @@
             animation: fadeInUp 1s ease-out 1s backwards;
 
         }
+
 
 
